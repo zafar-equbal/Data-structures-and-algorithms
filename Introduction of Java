@@ -1,0 +1,17 @@
+Java is an Object Oriented Programming language developed by Sun microsystem in 1991 .
+It was originally called Oak by James Goslin. 
+
+#Core Features
+Object Oriented :Java is a pure object-oriented language, meaning it structures programs around data and objects, utilizing principles like encapsulation, inheritance, abstraction, and polymorphism. This approach promotes modular, reusable, and maintainable code.
+
+Platform Independence : Java code is compiled into an intermediate format called bytecode, which does not depend on a specific operating system or hardware architecture. This bytecode is then executed by the Java Virtual Machine (JVM), allowing the same compiled program to run on any device with a compatible JVM installed (Windows, macOS, Linux, etc.).
+
+Simple Java was designed to be easy to learn and use. It removes complex and error-prone features found in languages like C++, such as explicit pointers, operator overloading, and multiple inheritance.
+
+Robust : Java emphasizes reliability through strong memory management, early compile-time error checking, and a robust exception-handling mechanism that helps deal with unexpected problems smoothly at runtime.
+
+Secure :  The language includes built-in security features, such as running programs in a virtual "sandbox" environment (the JVM), a bytecode verifier, and a security manager. These features protect the host system from unauthorized access and potential threats.
+
+Multithreaded Java supports multithreading, allowing multiple parts of a program to run concurrently. This is especially important for interactive applications and servers that need to handle many tasks or client requests simultaneously, maximizing CPU efficiency.
+
+Automatic Garbage Collection : Java's memory management is automatically handled by the JVM's garbage collector, which reclaims memory from objects that
