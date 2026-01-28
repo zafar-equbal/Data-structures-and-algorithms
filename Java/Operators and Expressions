@@ -1,0 +1,43 @@
+Operators are used to perform operations on variable and values.
+
+     7  +   11  =  18
+   operand --> 1,2,3,4,5,6,7,8,9;
+   opearator --> + , - ,* ,%;
+
+Types Of Operators.
+<i>   Arithmetic Operator --> +,-,*,/,%
+<ii>  Assignment Operator --> = , +=, -=, *=, /=
+<iii> Comparison Operator --> ==, >=, <=
+<iv>  Logical operator    --> && , || ,!
+<v>   Bitwise Operator    --> & ,| (operates bitwise)
+
+Note : Arithmetic operators cannot work with booleans .
+       % operator can work on float and doubles.
+
+Example syntax of opearator--
+
+ public class Main{
+   public static void main(String [] args){
+  // Arithmetic operator
+   int a=4;
+   int b=6%a
+
+ // Assignment operator
+  int b=9;
+    b*=3;
+  System.out.println(b);
+
+// Comparison operator
+System.out.println(64 <6);
+
+//Logical Operator
+System.out.println(64>5 && 64>98);
+System.out.println(1>64 || 64>98);
+
+//Bitwise operator
+System.out.println(2&3);
+
+
+
+
+
