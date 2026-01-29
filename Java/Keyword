@@ -1,0 +1,19 @@
+Keywords in Java are predefined, reserved words that have specific meanings to the compiler and cannot be used as identifiers (such as variable, method, or class names).
+They are fundamental building blocks for the language's syntax and logic. 
+
+As of recent Java versions, there are 52 fully reserved keywords, two of which (const and goto) are unused.
+There are also several contextual keywords that have special meaning only in specific situations (e.g., var, yield, record, sealed, and non-sealed).
+The values true, false, and null are also reserved, but are technically literals, not keywords. 
+
+    //Complete List of Java Keywords
+
+    abstract 	continue	  for   	    new     	  switch
+    assert   	default   	goto        package	    synchronized
+    boolean 	do	        if	        private   	this
+    break	    double	    implements	protected	  throw
+    byte    	else	      import	    public	    throws
+    case	    enum	      instanceof	return      transient
+    catch   	extends    	int	        short	      try
+    char	    final	      interface	  static	    void
+    class    	finally    	long	      strictfp	  volatile
+    const   	float	      native	    super     	while
