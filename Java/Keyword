@@ -17,3 +17,14 @@ The values true, false, and null are also reserved, but are technically literals
     char	    final	      interface	  static	    void
     class    	finally    	long	      strictfp	  volatile
     const   	float	      native	    super     	while
+
+
+// Categories and Use
+Java keywords can be grouped by their function in a program: 
+Access Modifiers: Control the visibility of classes, methods, and variables (public, private, protected).
+Data Types: Define the type of data a variable can hold (boolean, byte, char, short, int, long, float, double).
+Control Flow Statements: Manage the order of execution and decision-making (if, else, switch, case, default, while, do, for, break, continue, return).
+Exception Handling: Manage errors and exceptional events (try, catch, finally, throw, throws, assert).
+Class, Interface & Inheritance: Define the structure and relationships between classes (class, interface, extends, implements, new, super, this, abstract, final).
+Modifiers & Miscellaneous: Modify the behavior or properties of declarations (static, final, native, strictfp, synchronized, transient, volatile, enum).
+Package Management: Organize classes into packages (package, import). 
