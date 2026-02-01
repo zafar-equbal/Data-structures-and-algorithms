@@ -1,7 +1,7 @@
 // 
 Method -Function in class Known as Method
 
-Syntax-
+Syntax of Adding two number;
     import java.util.Scanner;
     public class ExampleMethod {
 
@@ -18,3 +18,29 @@ Syntax-
         System.out.println(total);
     }
 }
+
+
+Syntax for Greeting Message;
+
+import java.util.Scanner;
+public class Main{
+Scanner sc=new Scanner(System.in);
+public static void main (String args []){
+greet();
+}
+
+static void greet(){
+String name=sc.next();
+System.out.println("Hello "+name);
+}
+}
+
+
+
+
+
+
+
+
+
+
