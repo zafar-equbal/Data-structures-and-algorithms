@@ -1,0 +1,15 @@
+While loop - It is also a loop used for specific condition in which we do not have idea to how much the iteration will be.
+It iterate till the condition is true if the condition is false it break.
+
+
+Syntax for while loop 
+
+public class Main{
+public static void main(String args []){
+   int i=0;
+   while(i<5){
+    System.out.println(i);
+    i++;
+   }
+ }
+}
