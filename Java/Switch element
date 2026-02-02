@@ -1,0 +1,29 @@
+Switch =The switch in Java is a multi-way branch statement or expression that allows a program to select one of many code blocks to execute based on the value of a variable.
+It offers a cleaner alternative to a long if-else-if chain. 
+
+Example Of Switch case;
+
+public class Main {
+ public static void main( String [] args){
+  int day =3;
+  String dayName;
+  switch(day){
+    case 1:
+    dayName="Monday";
+    break;
+    case 2:
+    dayName="Tuesday";
+    break;
+    case 3:
+    dayName="Wednesday";
+    break;
+    case 4:
+    dayName="Thursday";
+    break;
+
+    default:
+    dayName="Invalid day";
+    }
+  System.out.println("Day:"+dayName);
+  }
+}
