@@ -1,0 +1,6 @@
+Type casting in java - Type casting refers to changing the entity of one data type into another.
+
+Syntax - Type variable1 =(type)_variable2;
+
+Example: int x=60;
+         byte n=(byte) x;
