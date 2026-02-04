@@ -1,0 +1,36 @@
+break Statement - The break statement is used to immediately terminate the current loop (or switch statement) and transfer program control to the statement immediately following the loop. 
+It acts as an emergency exit from the entire loop. 
+
+Usage: Can be used with for, while, do-while, and switch statements.
+
+Behavior in Nested Loops: When used within nested loops, break terminates only the innermost loop in which it is located.
+
+Syntax: break; 
+
+Example :
+            for (int i = 0; i < 10; i++) {
+              if (i == 5) {
+               break; // Loop terminates when i is 5
+          }
+              System.out.println("i: " + i);
+       }
+         // Execution continues here after the break
+
+continue Statement - The continue statement is used to skip the current iteration of a loop and proceed to the next iteration.
+It bypasses any remaining code in the loop body for that specific iteration. 
+
+Usage: Can be used with for, while, and do-while loops. It cannot be used with the switch statement.
+
+Behavior in Nested Loops: Similar to break, continue only affects the current iteration of the innermost loop it is in.
+
+Syntax: continue; 
+
+Example:
+
+for (int i = 0; i < 10; i++) {
+    if (i % 2 == 0) {
+        continue; // Skips the rest of the loop body for even numbers
+    }
+    System.out.println("Odd number: " + i);
+}
+// The loop continues with the next iteration
