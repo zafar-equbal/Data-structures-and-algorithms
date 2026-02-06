@@ -1,0 +1,35 @@
+Object-oriented programming (OOP or OOPs) is a paradigm based on "objects" that contain data (fields) and code (methods).
+
+It organizes software design around data rather than functions, improving reusability, maintainability, and structure. 
+
+Core concepts include classes (blueprints), objects (instances), encapsulation, inheritance, and polymorphism. 
+
+
+==================================================================================================================================================================================
+Key Concepts of OOPs:
+
+Class: A blueprint or template for creating objects, defining attributes and behaviors.
+
+Object: An instance of a class, representing a specific, concrete entity.
+
+Encapsulation: Binding data and methods together, restricting direct access to some components.
+
+Inheritance: A mechanism where a new class inherits properties and behaviors from an existing class.
+
+Polymorphism: The ability of different objects to respond to the same method call in their own way.
+
+Abstraction: Hiding complex implementation details and showing only the necessary features. 
+
+
+==================================================================================================================================================================================
+Advantages of OOP:
+
+Reusability: Code can be reused through inheritance.
+
+Maintainability: Easier to maintain, modify, and debug code.
+
+Structure: Provides a clear, modular structure.
+
+Real-world Modeling: Models real-world entities better than procedural programming. 
+
+Common languages that support OOP include Java, Python, C++, C#, and JavaScript. 
