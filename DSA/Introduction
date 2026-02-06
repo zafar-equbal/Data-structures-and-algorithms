@@ -1,0 +1,14 @@
+DSA - DSA stands for Data Structures and Algorithms.
+
+Data Structures and Algorithms (DSA) is a fundamental part of Computer Science that teaches you how to think and solve complex problems systematically.
+Using the right data structure and algorithm makes your program run faster, especially when working with lots of data.
+
+Key Aspects of DSA:
+===================================================================================================================================================================
+Data Structures: Specialized methods for storing and organizing data to use it effectively (e.g., Arrays, Linked Lists, Trees, Graphs, Stacks, Queues).
+
+Algorithms: Step-by-step procedures or formulas for solving problems (e.g., Sorting: QuickSort, MergeSort; Searching: Binary Search).
+
+Purpose: To write code that runs faster and consumes less memory, which is crucial for high-performance applications like AI, navigation, and gaming.
+
+Importance: It is highly valued in job interviews for top tech companies (Google, Amazon, Meta) and helps build scalable software. 
