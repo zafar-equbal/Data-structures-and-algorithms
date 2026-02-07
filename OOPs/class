@@ -1,0 +1,14 @@
+Class -In Object-Oriented Programming (OOP) in Java, a class is a blueprint or template for creating objects,
+defining the common structure and behavior (attributes and methods) that all objects of that type will share.
+An object is a specific instance of a class, representing a real-world entity with its own unique state. 
+
+
+=========================================================================================================================================================================================
+Key Concepts
+
+Class: A logical construct that does not occupy memory when defined. It is where you declare fields (variables) and methods (functions).
+
+Object: A physical entity created at runtime from a class using the new keyword. Each object has its own copy of the instance variables (state). 
+
+Defining and Using a Class : 
+A basic class declaration in Java includes the class keyword followed by the class name and a body enclosed in curly braces {}. 
