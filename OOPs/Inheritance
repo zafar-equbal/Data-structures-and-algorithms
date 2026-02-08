@@ -1,0 +1,15 @@
+
+inheritance in oops in java
+
+
+
+
+Inheritance in Java is a core object-oriented programming (OOP) concept that allows a class to acquire the properties (fields) and behaviors (methods) of another class. This mechanism promotes code reusability and establishes an "is-a" relationship between classes, such as "A Dog is an Animal". 
+Key Terminology and Types
+Superclass & Subclass: The parent class provides features, while the child class inherits them.
+Keywords: extends creates the relationship, while super accesses parent members.
+Types: Java supports Single, Multilevel, and Hierarchical inheritance. Multiple and Hybrid inheritance are achieved through interfaces to avoid complexity.
+Method Overriding: Subclasses can redefine parent methods. 
+Key Benefits
+Reusability & Organization: Reduces code duplication and creates a logical hierarchy.
+Polymorphism & Maintenance: Enables method overriding for runtime polymorphism and simplifies updates across subclasses.
