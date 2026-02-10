@@ -21,4 +21,4 @@ Properties of Array :
 Array Length : To find out how many elements an array has, use the length property:
 Example :
 String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
-System.out.println(
+System.out.println(cars.length);         
