@@ -1,0 +1,5 @@
+Polymorphism is one of the core concepts of object-oriented programming (OOP) that describes situations in which something occurs in several different forms.
+In computer science, polymorphism describes the concept that you can access objects of different types through the same interface.
+Each type can provide its own independent implementation of this interface.
+
+In programming language theory and type theory, polymorphism allows a value or variable to have more than one type and allows a given operation to be performed on values of more than one type.
