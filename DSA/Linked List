@@ -1,0 +1,5 @@
+Linked list - Alinked list is a linear, non-contiguous data structure consisting of nodes, where each node contains data and a pointer (reference) to the next node in the sequence. It enables efficient, dynamic insertion and deletion of elements, with the head pointing to the first node and the tail to NULL. 
+Key Aspects of Linked Lists
+Structure: Consists of nodes containing data and a link (pointer) to the next node.
+Memory Management: Unlike arrays, nodes are not stored in contiguous memory locations, allowing for flexible memory allocation.
+Head/Tail: The first node is the 'head' (access point), and the last node is the 'tail' (points to NULL).
