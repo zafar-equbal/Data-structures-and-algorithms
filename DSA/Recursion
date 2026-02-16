@@ -10,3 +10,24 @@ Recursive Step (or Case): The part of the method that makes the recursive call w
 
 Call Stack: Each time a method is called, a new stack frame (a block of memory) is created on the call stack to store its local variables and parameters.
 When the base case is reached and the method returns, its frame is popped off the stack. 
+
+// program to calculate factorial 
+
+public class Factorial {
+    public static int factorial(int n) {
+        // Base case: Stop when n is 0
+        if (n == 0) {
+            return 1;
+        }
+        // Recursive step: Call the method again with a smaller input
+        else {
+            return n * factorial(n - 1);
+        }
+    }
+
+    public static void main(String[] args) {
+        int num = 5;
+        System.out.println("Factorial of " + num + " is: " + factorial(num)); // Output: Factorial of 5 is: 120
+    }
+}
+
