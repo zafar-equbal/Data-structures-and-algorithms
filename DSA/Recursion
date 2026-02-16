@@ -1,0 +1,12 @@
+Recursion : Recursion in Java is a programming technique where a method repeatedly calls itself to solve a problem by breaking it down into smaller, identical subproblems.
+
+Key Concepts : 
+
+Recursive Method: A function in Java that calls itself.
+
+Base Case: A condition that stops the recursion. Without a base case, the function would call itself indefinitely, leading to a StackOverflowError.
+
+Recursive Step (or Case): The part of the method that makes the recursive call with a modified input that moves closer to the base case.
+
+Call Stack: Each time a method is called, a new stack frame (a block of memory) is created on the call stack to store its local variables and parameters.
+When the base case is reached and the method returns, its frame is popped off the stack. 
