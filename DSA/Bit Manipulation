@@ -1,0 +1,20 @@
+Bit manipulation in Java involves using bitwise and bit shift operators to directly manipulate individual bits within integral data types (like int, long, short, byte, and char). 
+This technique is used for optimization, low-level programming, and solving certain algorithmic problems efficiently. 
+
+Bitwise Operators in Java :
+
+Java provides a set of operators for bit-level operations: 
+Bitwise AND (&): Compares corresponding bits of two operands; if both are 1, the result is 1, otherwise 0.
+Bitwise OR (|): Compares corresponding bits; if at least one is 1, the result is 1, otherwise 0.
+Bitwise XOR (^): Compares corresponding bits; if the bits are different, the result is 1, otherwise 0.
+Bitwise NOT (~): A unary operator that inverts all the bits of a single operand (changes 0 to 1 and 1 to 0). 
+
+
+Bit Shift Operators :
+
+These operators shift the bits of a number to the left or right: 
+Left Shift (<<): Shifts bits to the left by a specified number of positions, filling the rightmost positions with zeros.
+This is equivalent to multiplying the number by 2 raised to the power of the shift count.
+Signed Right Shift (>>): Shifts bits to the right, preserving the sign of the number by filling the leftmost positions with the sign bit (0 for positive, 1 for negative). 
+This is equivalent to integer division by 2 raised to the power of the shift count.
+Unsigned Right Shift (>>>): Shifts bits to the right, always filling the leftmost positions with zeros, regardless of the original sign. 
