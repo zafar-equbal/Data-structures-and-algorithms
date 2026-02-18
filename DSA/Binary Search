@@ -1,0 +1,2 @@
+Binary search is an efficient algorithm for finding a target value within a sorted array or list.
+It works by repeatedly dividing the search interval in half, which gives it a time complexity of O(log n), a significant improvement over linear search for large datasets
