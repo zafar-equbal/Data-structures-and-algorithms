@@ -1,0 +1,41 @@
+Method Overriding - Method overriding in Java occurs when a subclass provides its own specific implementation for a method that is already defined in its superclass. 
+The method in the subclass must have the same name, return type (or a covariant return type), and parameters as the one in the parent class. 
+
+Key Rules for Method Overriding :
+Inheritance is required: Overriding can only happen in a subclass that extends a superclass.
+Same signature: The overriding method must have the exact same name, return type (or a covariant return type), and parameter list as the method in the superclass.
+Access modifier: The access modifier of the overriding method cannot be more restrictive than the overridden method's modifier. For example, a protected method in the superclass can be made public in the subclass, but not private.
+Non-overridable methods: Methods declared as final, static, or private cannot be overridden.
+@Override annotation: It is good practice to use the @Override annotation, which helps the compiler check if the method is correctly overriding a superclass method.
+super keyword: The super keyword can be used within the subclass's overridden method to call the parent class's version of the method. 
+
+Example of Method overriding :
+
+This example demonstrates how the Dog class overrides the sound() method from the Animal class. When the method is called, the specific implementation in the subclass is executed, a process known as runtime polymorphism or dynamic method dispatch. 
+
+// Parent class
+class Animal {
+    void sound() {
+        System.out.println("Animal makes a sound");
+    }
+}
+
+// Child class
+class Dog extends Animal {
+    // The @Override annotation is optional but recommended for clarity and error checking
+    @Override
+    void sound() {
+        System.out.println("Dog barks");
+    }
+}
+
+// Main class to demonstrate overriding
+public class Main {
+    public static void main(String[] args) {
+        Animal myAnimal = new Animal(); // Parent reference, parent object
+        Animal myDog = new Dog();       // Parent reference, child object
+
+        myAnimal.sound(); // Calls the sound() method in Animal class
+        myDog.sound();    // Calls the overridden sound() method in Dog class
+    }
+}
