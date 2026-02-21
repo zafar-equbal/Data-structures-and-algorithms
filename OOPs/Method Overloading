@@ -1,0 +1,32 @@
+Method Overloading - Method overloading is an object-oriented programming feature allowing a class to define multiple methods with the same name but different parameters (number, type, or order).
+It increases code readability and reusability, serving as compile-time polymorphism where the compiler determines the specific method to execute based on the signature.
+
+
+Key Rules :
+1. Same Name, Different Parameters: Methods must share the same name but have a unique parameter list (signature).
+2. Return Type Doesn't Matter: The return type can be the same or different, but changing only the return type is not enough to overload a method; the parameter list must still be different.
+3. Access Modifier Doesn't Matter: The access modifier can also be different for overloaded methods. 
+
+Example of method overloading :
+
+1. Overloading by Changing the Number of Parameters
+This is achieved by defining methods with the same name but different counts of arguments. 
+
+Syntax : public class Calculator {
+
+    // Method with two parameters
+    public int add(int a, int b) {
+        return a + b;
+    }
+
+    // Overloaded method with three parameters
+    public int add(int a, int b, int c) {
+        return a + b + c;
+    }
+
+    public static void main(String[] args) {
+        Calculator calc = new Calculator();
+        System.out.println("Sum of 2 numbers: " + calc.add(10, 20)); // Calls the first method
+        System.out.println("Sum of 3 numbers: " + calc.add(10, 20, 30)); // Calls the second method
+    }
+}
