@@ -1,2 +1,6 @@
 Abstraction : Abstraction  is a core principle of object-oriented programming (OOP) that involves hiding the internal implementation details and showing only the necessary functionality to the user.
 The goal is to simplify complex systems, improve code maintainability, and increase security. 
+
+Real-Time Example: A Payment Processing System
+Consider building a payment processing system where users can pay via credit card, debit card, or a third-party UPI service.
+The core business logic only needs to know that a payment can be processed, not the specific mechanisms for each method.
