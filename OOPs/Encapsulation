@@ -1,5 +1,11 @@
-Encapsulation : The meaning of Encapsulation, is to make sure that "sensitive" data is hidden from users. To achieve this, you must:
+Encapsulation : The meaning of Encapsulation, is to make sure that "sensitive" data is hidden from users.
 
+To achieve this, you must:
 declare class variables/attributes as private
 provide public get and set methods to access and update the value of a private variable
+
+
+Real-time Example: A Bank Account System
+A BankAccount class demonstrates encapsulation by protecting the balance data.
+It uses a private field for the balance and public methods for controlled, validated interaction. 
 
