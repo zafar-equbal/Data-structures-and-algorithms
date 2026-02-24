@@ -3,3 +3,11 @@ Java, a collection is an object that groups multiple elements into a single unit
 providing a unified architecture (the Collections Framework) to store, manipulate, and retrieve groups of objects. 
 This framework, located in the java.util package, offers reusable data structures and algorithms, which overcome the limitations of traditional arrays like fixed size.
 
+Key Interfaces of the Java Collections Framework :
+The framework is built upon core interfaces that define the behavior of different collection types. 
+
+Collection: The root interface of the hierarchy, representing a basic group of objects. It defines common operations like add(), remove(), contains(), and size().
+List: An ordered collection (maintains insertion order) that allows duplicate elements. Elements can be accessed by their integer index.
+Set: An unordered collection that does not allow duplicate elements. It models the mathematical set abstraction.
+Queue: A collection used to hold elements prior to processing, typically (but not always) ordering them in a First-In-First-Out (FIFO) manner.
+Map: This interface stores data as key-value pairs, where each key must be unique. While part of the framework, it does not inherit from the Collection interface directly. 
