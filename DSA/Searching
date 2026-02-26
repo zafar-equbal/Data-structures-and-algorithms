@@ -1,0 +1,9 @@
+Searching : In Java data structures and algorithms (DSA), common searching methods include Linear Search for unsorted data and Binary Search (and its variations) for sorted data, along with hashing for highly efficient key-based lookups.
+
+Linear Search: The simplest method, it sequentially checks each element in a list until a match is found or the end is reached. It works on both sorted and unsorted data, but is inefficient for large datasets, with a time complexity of O(n).
+Use Case: Small or unsorted datasets.
+Java Implementation: Involves a simple for loop to iterate through an array.
+
+Binary Search: An efficient "divide and conquer" algorithm that repeatedly halves the search space. It requires the data to be sorted and has a time complexity of O(log n).
+Use Case: Large, sorted datasets and applications requiring fast search operations.
+Java Implementation: Can be implemented using loops (iterative) or recursion, and Java's standard library provides a built-in Arrays.binarySearch() method for sorted arrays.
