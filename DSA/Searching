@@ -7,3 +7,6 @@ Java Implementation: Involves a simple for loop to iterate through an array.
 Binary Search: An efficient "divide and conquer" algorithm that repeatedly halves the search space. It requires the data to be sorted and has a time complexity of O(log n).
 Use Case: Large, sorted datasets and applications requiring fast search operations.
 Java Implementation: Can be implemented using loops (iterative) or recursion, and Java's standard library provides a built-in Arrays.binarySearch() method for sorted arrays.
+
+Example Of Searching :
+Let's Assume about a Book , Searching page one by one is linear search and search pages by divided into half and half until the optimal search got found is binary search.
