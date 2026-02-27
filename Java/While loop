@@ -13,3 +13,16 @@ public static void main(String args []){
    }
  }
 }
+
+
+≈=================================================================================================================================
+
+How it Works
+Initialization: A loop control variable is typically initialized before the loop starts.
+Condition Check: The boolean condition is evaluated.
+Execution:
+If the condition is true, the code inside the loop body is executed.
+If the condition is false, the loop terminates, and program control moves to the next statement after the loop.
+Update: An update expression (e.g., incrementing or decrementing a counter) within the loop body modifies the variable used in the condition, which is crucial for the loop to eventually terminate.
+Without it, an infinite loop may occur.
+Repeat: The process returns to step 2 (Condition Check).
