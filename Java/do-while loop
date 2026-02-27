@@ -1,0 +1,10 @@
+do- while loop --> The Java do-while loop executes a block of code at least once, and then continues to repeat as long as a specified condition remains true.
+  It is known as an exit-controlled loop because the condition is checked after the loop body executes.
+
+  
+Syntax :
+The syntax for the do-while loop is as follows:
+  
+do {
+    // code block to be executed
+} while (condition);
