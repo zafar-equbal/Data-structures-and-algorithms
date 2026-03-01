@@ -7,3 +7,15 @@ Bytecode Execution: The JVM interprets or compiles Java bytecode into machine-sp
 Memory Management: The JVM manages memory, including garbage collection to remove unused objects and prevent memory leaks.
 JIT Compiler: The Just-In-Time (JIT) compiler optimizes performance by compiling frequently executed bytecode into native machine code at runtime.
 Platform Independence: The JVM allows "Write Once, Run Anywhere" (WORA), ensuring applications run on Windows, macOS, or Linux. 
+
+================================================================================================================================================================================================================
+
+JRE : The Java Runtime Environment (JRE) is a software package required to run Java applications, containing the Java Virtual Machine (JVM), core libraries, and other components. 
+It acts as a layer on top of the operating system, providing the necessary environment to execute compiled Java bytecode. 
+
+Key Aspects of JRE :
+Purpose: Enables end-users to run Java applications (desktop/laptop).
+Components: Contains the JVM, class loaders, and class libraries (e.g., Java API).
+Platform Independence: Allows Java code to run on any system by converting bytecode into machine-specific instructions.
+Relationship to JDK: JRE is a part of the Java Development Kit (JDK), which is used for developing Java software.
+Installation: Installed on systems to run Java applications (typically in C:\Program Files\Java\jre on Windows).
