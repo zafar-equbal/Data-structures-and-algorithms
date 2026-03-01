@@ -19,3 +19,26 @@ Components: Contains the JVM, class loaders, and class libraries (e.g., Java API
 Platform Independence: Allows Java code to run on any system by converting bytecode into machine-specific instructions.
 Relationship to JDK: JRE is a part of the Java Development Kit (JDK), which is used for developing Java software.
 Installation: Installed on systems to run Java applications (typically in C:\Program Files\Java\jre on Windows).
+
+==========================================================================================================================================================================================
+
+JDK : The JDK stands for the Java Development Kit, which is a comprehensive software package that provides all the tools, libraries, and environments necessary to write, compile, debug, and run Java applications.
+It is the foundational component for Java programmers. 
+
+Core Components :
+The JDK is a superset that includes the Java Runtime Environment (JRE) and additional development tools. 
+
+Development Tools: These are command-line utilities for developers, including:
+javac: The Java compiler that translates Java source code (.java files) into platform-independent bytecode (.class files).
+java: The application launcher (interpreter) that starts the JVM and executes the bytecode.
+jar: The archiver tool used to package related class libraries and resources into a single Java Archive (.jar) file for easy distribution.
+javadoc: The documentation generator that automatically creates HTML API documentation from comments in the source code.
+jdb: The Java Debugger, a command-line utility for finding and fixing bugs.
+Java Runtime Environment (JRE): The JRE provides the environment needed to run Java programs. It contains:
+Java Virtual Machine (JVM): An abstract machine that executes Java bytecode, managing memory and ensuring Java's "write once, run anywhere" capability by translating bytecode into the host machine's specific instructions.
+Core Class Libraries: Pre-written code that provides essential functionalities (e.g., handling data structures, networking, security). 
+
+Summary of Relationship
+JDK = JRE + Development Tools
+JRE = JVM + Core Libraries
+JVM = The runtime engine that executes the bytecode 
