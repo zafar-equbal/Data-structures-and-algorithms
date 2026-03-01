@@ -1,0 +1,9 @@
+JVM : The Java Virtual Machine (JVM) is a virtual machine that enables computers to run Java bytecode, acting as an interpreter between Java programs and the underlying hardware. 
+It provides a platform-independent runtime environment, allowing Java applications to run on any device without modification.
+Key functions include bytecode conversion, just-in-time (JIT) compilation, automatic memory management, and garbage collection. 
+
+Core Components and Functions :
+Bytecode Execution: The JVM interprets or compiles Java bytecode into machine-specific code.
+Memory Management: The JVM manages memory, including garbage collection to remove unused objects and prevent memory leaks.
+JIT Compiler: The Just-In-Time (JIT) compiler optimizes performance by compiling frequently executed bytecode into native machine code at runtime.
+Platform Independence: The JVM allows "Write Once, Run Anywhere" (WORA), ensuring applications run on Windows, macOS, or Linux. 
