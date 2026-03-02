@@ -8,3 +8,10 @@ Automatic Invocation: It is called automatically by the Java runtime when an obj
 Cannot be Inherited: Constructors are not inherited by subclasses. However, subclass constructors must call a superclass constructor (implicitly or explicitly via super()).
 Modifiers: Constructors can use access modifiers (public, protected, private, default) but cannot be declared as abstract, static, final, or synchronized.
 Overloading: A class can have multiple constructors, provided they have different parameter lists (different number, type, or order of parameters). This is known as constructor overloading. 
+
+
+Types of Constructors :
+There are three primary types of constructors in Java: 
+Default Constructor: If you do not define any constructor in your class, the Java compiler automatically provides a no-argument default constructor. This constructor initializes all instance variables to their default values (e.g., 0 for int, false for boolean, null for objects).
+No-Arg Constructor (User-Defined): This is a constructor explicitly written by the programmer that takes no arguments. Unlike the implicit default constructor, you can include custom logic inside a user-defined no-arg constructor to perform specific setup tasks.
+Parameterized Constructor: This constructor takes one or more parameters. It is used to initialize the object's fields with specific, user-provided values at the time of object creation, allowing for objects with different initial states.
