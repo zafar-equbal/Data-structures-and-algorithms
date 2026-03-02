@@ -1,0 +1,2 @@
+Constructor : A constructor in Java is a special type of method used to initialize objects when they are created. 
+It sets the initial state (values for instance variables) of the new object to ensure it starts in a valid and consistent state. 
