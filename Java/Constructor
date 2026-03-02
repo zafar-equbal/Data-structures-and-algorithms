@@ -1,2 +1,10 @@
 Constructor : A constructor in Java is a special type of method used to initialize objects when they are created. 
-It sets the initial state (values for instance variables) of the new object to ensure it starts in a valid and consistent state. 
+It sets the initial state (values for instance variables) of the new object to ensure it starts in a valid and consistent state.
+
+Key Characteristics :-
+Same Name as the Class: The constructor's name must exactly match the class name.
+No Return Type: Constructors do not have a return type, not even void.
+Automatic Invocation: It is called automatically by the Java runtime when an object is instantiated using the new keyword.
+Cannot be Inherited: Constructors are not inherited by subclasses. However, subclass constructors must call a superclass constructor (implicitly or explicitly via super()).
+Modifiers: Constructors can use access modifiers (public, protected, private, default) but cannot be declared as abstract, static, final, or synchronized.
+Overloading: A class can have multiple constructors, provided they have different parameter lists (different number, type, or order of parameters). This is known as constructor overloading. 
