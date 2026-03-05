@@ -12,3 +12,6 @@ boolean isFishTasty = false;
 
 System.out.println(isJavaFun);    // Outputs true
 System.out.println(isFishTasty);  // Outputs false
+
+0 --> False
+1 --> True
