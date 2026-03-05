@@ -1,3 +1,11 @@
 Backtracking : Backtracking is an algorithmic technique used to solve problems recursively by building a solution incrementally, one piece at a time.
 It explores all possible options and "backtracks" (undoes its last choice) as soon as it determines that a current path cannot possibly lead to a valid solution, effectively pruning the search space. 
 This approach is a refined form of the brute-force method and is closely related to Depth-First Search (DFS).
+
+How Backtracking Works
+The process can be conceptualized as exploring a decision tree, where each node is a partial solution and each branch a possible choice. The general structure in Java involves these three key steps within a recursive function: 
+Choose: Make a decision or pick an option to extend the current partial solution.
+Explore: Recursively move forward with this choice.
+Unchoose (Backtrack): If the recursive call returns and doesn't find a solution, undo the most recent decision to restore the state and try a different option. 
+A base case is defined to check if a complete and valid solution has been reached. 
+
