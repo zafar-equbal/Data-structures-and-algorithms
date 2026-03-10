@@ -1,1 +1,9 @@
 Garbage collection : Garbage collection (GC) in Java is an automatic memory management process that reclaims memory occupied by objects that are no longer in use by the program.
+This allows developers to focus on application logic without manually allocating and deallocating memory.
+
+How Garbage Collection Works :
+The Java Virtual Machine (JVM) manages a large memory area called the heap, where objects are created. The garbage collector identifies "dead" (unused/unreachable) objects and removes them to free up space. The basic process usually involves the following steps: 
+Marking: The GC identifies all live (reachable) objects in the heap by starting from "GC roots" (e.g., local variables, static variables, active threads) and traversing the object graph. 
+Objects not reachable from these roots are considered garbage.
+Sweeping: The collector scans the heap and reclaims the memory used by the unmarked (dead) objects.
+Compacting: To prevent memory fragmentation, some collectors move the remaining live objects together, creating larger, contiguous blocks of free memory. This makes allocating new objects faster
