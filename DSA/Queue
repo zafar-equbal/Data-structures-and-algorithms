@@ -56,5 +56,17 @@ public class QueueExample {
 }
 
 
+Output of the code:
+Current Queue: [First Person, Second Person, Third Person]
+Head of Queue (peek): First Person
+Head of Queue (element): First Person
+Removed with poll(): First Person
+Queue after one removal: [Second Person, Third Person]
+Removed with remove(): Second Person
+Queue after second removal: [Third Person]
+Queue size: 1
+Is queue empty? false
+Queue after clearing: []
+Is queue empty? true
 
 
