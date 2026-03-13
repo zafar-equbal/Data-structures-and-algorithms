@@ -12,3 +12,49 @@ Dequeue: Removes and returns the first (front) element from the queue.
 Peek: Returns the first element in the queue.
 isEmpty: Checks if the queue is empty.
 Size: Finds the number of elements in the queue.
+
+========================================================================================================
+
+import java.util.Queue;
+import java.util.LinkedList;
+
+public class QueueExample {
+    public static void main(String[] args) {
+        // Creating a Queue using LinkedList
+        Queue<String> queue = new LinkedList<>();
+
+        // 1. Adding elements to the queue
+        queue.add("First Person"); // Throws exception if capacity is full
+        queue.offer("Second Person"); // Returns false if capacity is full
+        queue.add("Third Person");
+        System.out.println("Current Queue: " + queue);
+
+        // 2. Examining the head element
+        String head = queue.peek(); // Returns null if empty
+        System.out.println("Head of Queue (peek): " + head);
+        head = queue.element(); // Throws exception if empty
+        System.out.println("Head of Queue (element): " + head);
+
+        // 3. Removing elements from the queue
+        String removedPerson = queue.poll(); // Returns null if empty
+        System.out.println("Removed with poll(): " + removedPerson);
+        System.out.println("Queue after one removal: " + queue);
+
+        removedPerson = queue.remove(); // Throws exception if empty
+        System.out.println("Removed with remove(): " + removedPerson);
+        System.out.println("Queue after second removal: " + queue);
+        
+        // 4. Checking size and emptiness
+        System.out.println("Queue size: " + queue.size());
+        System.out.println("Is queue empty? " + queue.isEmpty());
+
+        // 5. Clearing the queue
+        queue.clear();
+        System.out.println("Queue after clearing: " + queue);
+        System.out.println("Is queue empty? " + queue.isEmpty());
+    }
+}
+
+
+
+
