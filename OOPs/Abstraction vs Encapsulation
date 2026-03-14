@@ -6,7 +6,7 @@ Key Differences:
 Aspect 	                        **Abstraction                                                                                                                        **	Encapsulation
 Purpose	  :     To reduce complexity and provide a clear separation between the interface and its implementation, focusing on what an object does.	          To protect data integrity, ensure data privacy, and manage the internal state of an object by restricting direct access.
 Level     :    	Solves problems at the design or interface level.                                                                                           	Solves problems at the implementation level.
-Mechanism :   	Achieved using abstract classes and interfaces.                                                                                              	Achieved using access modifiers (like private) and public getter/setter methods.
+Mechanism :   	Achieved using abstract classes and interfaces.                                                                                              	Achieved using access modifiers (like private) and public getter/setter methods'
 Analogy   :   	A car's steering wheel and pedals: the user interacts with them without needing to know the engine's inner workings.	                        A capsule containing medicine: the medicine (data) is hidden inside the capsule (class) and accessed in a controlled way (consumption instructions).
 
 
