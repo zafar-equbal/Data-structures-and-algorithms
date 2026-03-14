@@ -1,1 +1,17 @@
+In Java, abstraction focuses on hiding implementation complexities to show only essential features (the "what"), 
+while encapsulation focuses on binding data and methods into a single unit and controlling access to that data (the "how it's protected"). 
 
+Key Differences:
+
+Aspect 	                        **Abstraction                                                                                                                        **	Encapsulation
+Purpose	  :     To reduce complexity and provide a clear separation between the interface and its implementation, focusing on what an object does.	          To protect data integrity, ensure data privacy, and manage the internal state of an object by restricting direct access.
+Level     :    	Solves problems at the design or interface level.                                                                                           	Solves problems at the implementation level.
+Mechanism :   	Achieved using abstract classes and interfaces.                                                                                              	Achieved using access modifiers (like private) and public getter/setter methods.
+Analogy   :   	A car's steering wheel and pedals: the user interacts with them without needing to know the engine's inner workings.	                        A capsule containing medicine: the medicine (data) is hidden inside the capsule (class) and accessed in a controlled way (consumption instructions).
+
+
+How They Work Together :
+Abstraction and encapsulation are complementary principles that work together to create secure, scalable, and maintainable software. 
+An abstract class or interface defines the high-level behavior (abstraction) that a class will implement.
+The concrete class then uses encapsulation to manage its internal data securely while adhering to the abstract definition. 
+For example, a Shape interface might declare an abstract calculateArea() method (abstraction). A Circle class implementing this interface would use private variables for its radius and public methods to access it, ensuring the data is managed correctly (encapsulation).
