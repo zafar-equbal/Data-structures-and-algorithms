@@ -5,7 +5,7 @@ Each of the eight primitive data types in Java has a corresponding immutable wra
 
 Primitive Data Type 	  Wrapper Class
   boolean               	Boolean
-  byte	                  Byte
+  byte	                 Byte
   char	                  Character
   short	                  Short
   int	                    Integer
