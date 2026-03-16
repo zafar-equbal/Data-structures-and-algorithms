@@ -1,2 +1,15 @@
 Wrapper class: A wrapper class in Java is a class whose objects encapsulate a primitive data type (like int, boolean, or char) to allow the primitive value to be represented as an object.
 
+The Eight Wrapper Classes :
+Each of the eight primitive data types in Java has a corresponding immutable wrapper class in the java.lang package:
+
+Primitive Data Type 	  Wrapper Class
+  boolean               	Boolean
+  byte	                  Byte
+  char	                  Character
+  short	                  Short
+  int	                    Integer
+  long	                  Long
+  float                 	Float
+  double                 	Double
+
