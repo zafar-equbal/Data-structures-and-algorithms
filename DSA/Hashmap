@@ -1,0 +1,5 @@
+A HashMap is a part of Java’s Collection Framework and implements the Map interface. It stores elements in key-value pairs, where, Keys are unique. and Values can be duplicated.
+
+Internally uses Hashing, hence allows efficient key-based retrieval, insertion, and removal with an average of O(1) time.
+HashMap is not thread-safe, to make it synchronized, use Collections.synchronizedMap().
+Insertion order is not preserved in HashMap. To preserve the insertion order, LinkedHashMap is used and to maintain sorted order, TreeMap is used.
