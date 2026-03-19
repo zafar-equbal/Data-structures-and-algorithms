@@ -1,2 +1,8 @@
 Set : In Java, a Set is a core part of the Collections Framework used in Data Structures and Algorithms (DSA) to store a collection of unique elements.
 It does not allow duplicate entries and does not provide index-based access.
+
+Key Characteristics
+No Duplicates: The primary feature of a Set is that it automatically ignores any attempt to add an element that is already present.
+No Order Guarantee: In general, Set implementations do not guarantee the order of elements (with the exception of LinkedHashSet and TreeSet).
+Efficient Operations: Sets are designed for efficient membership testing (checking if an element exists), insertion, and deletion operations.
+Mathematical Operations: They allow for common mathematical set operations like union, intersection, and difference.
