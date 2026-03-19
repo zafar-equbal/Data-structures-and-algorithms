@@ -1,0 +1,2 @@
+Set : In Java, a Set is a core part of the Collections Framework used in Data Structures and Algorithms (DSA) to store a collection of unique elements.
+It does not allow duplicate entries and does not provide index-based access.
