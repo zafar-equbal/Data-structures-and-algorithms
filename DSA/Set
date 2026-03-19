@@ -6,3 +6,19 @@ No Duplicates: The primary feature of a Set is that it automatically ignores any
 No Order Guarantee: In general, Set implementations do not guarantee the order of elements (with the exception of LinkedHashSet and TreeSet).
 Efficient Operations: Sets are designed for efficient membership testing (checking if an element exists), insertion, and deletion operations.
 Mathematical Operations: They allow for common mathematical set operations like union, intersection, and difference.
+
+Common Implementations in Java
+Java provides several classes that implement the Set interface, each with different underlying data structures and performance characteristics: 
+HashSet:
+Data Structure: Uses a hash table for storage.
+Order: Does not maintain any order.
+Performance: Offers constant time O(1) on average for basic operations (add, remove, contains), making it very fast.
+LinkedHashSet:
+Data Structure: Uses a hash table and a doubly linked list.
+Order: Maintains the insertion order of elements.
+Performance: Slightly slower than HashSet but still efficient.
+TreeSet:
+Data Structure: Uses a balanced binary search tree (specifically a Red-Black tree).
+Order: Stores elements in sorted (ascending) order.
+Performance: Operations have a time complexity of O(log n), which is slower than hash-based sets but provides the benefit of ordering. TreeSet does not allow null values.
+
