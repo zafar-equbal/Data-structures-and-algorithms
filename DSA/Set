@@ -22,3 +22,33 @@ Data Structure: Uses a balanced binary search tree (specifically a Red-Black tre
 Order: Stores elements in sorted (ascending) order.
 Performance: Operations have a time complexity of O(log n), which is slower than hash-based sets but provides the benefit of ordering. TreeSet does not allow null values.
 
+Basic Usage Example (HashSet)
+You must import the java.util.* package to use the Set interface and its implementations. 
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class SetExample {
+    public static void main(String[] args) {
+        // Declaration and instantiation using HashSet
+        Set<String> uniqueNames = new HashSet<>();
+
+        // Add elements
+        uniqueNames.add("Alice");
+        uniqueNames.add("Bob");
+        uniqueNames.add("Charlie");
+        uniqueNames.add("Alice"); // Duplicate, ignored by the set
+
+        // Check for an element
+        boolean hasBob = uniqueNames.contains("Bob"); // true
+
+        // Remove an element
+        uniqueNames.remove("Charlie");
+
+        // Iterate through the elements
+        for (String name : uniqueNames) {
+            System.out.println(name);
+        }
+    }
+}
+
