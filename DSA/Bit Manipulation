@@ -18,3 +18,5 @@ This is equivalent to multiplying the number by 2 raised to the power of the shi
 Signed Right Shift (>>): Shifts bits to the right, preserving the sign of the number by filling the leftmost positions with the sign bit (0 for positive, 1 for negative). 
 This is equivalent to integer division by 2 raised to the power of the shift count.
 Unsigned Right Shift (>>>): Shifts bits to the right, always filling the leftmost positions with zeros, regardless of the original sign. 
+
+Example of Bit Manipulation;
