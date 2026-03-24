@@ -8,4 +8,4 @@ provide public get and set methods to access and update the value of a private v
 Real-time Example: A Bank Account System
 A BankAccount class demonstrates encapsulation by protecting the balance data.
 It uses a private field for the balance and public methods for controlled, validated interaction. 
-
+shsh
