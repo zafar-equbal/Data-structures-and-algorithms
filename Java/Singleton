@@ -1,2 +1,8 @@
 A Singleton in Java is a creational design pattern that ensures a class has only one instance and provides a global point of access to that single instance.
 This pattern is useful for managing shared resources like a single database connection pool, logger, or configuration object, where multiple instances could lead to conflicts or inefficient resource usage.
+
+To implement the singleton pattern, the class must have the following characteristics: 
+
+Private Constructor: This prevents the class from being instantiated directly by other classes using the new keyword.
+Private Static Instance: A single, static field of the same class type holds the only instance of the class.
+Public Static Method: A public static method (commonly named getInstance()) provides the global access point to the instance. This method returns the single cached object, creating it only if it doesn't already exist (lazy initialization).
