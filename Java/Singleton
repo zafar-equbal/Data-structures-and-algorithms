@@ -1,0 +1,2 @@
+A Singleton in Java is a creational design pattern that ensures a class has only one instance and provides a global point of access to that single instance.
+This pattern is useful for managing shared resources like a single database connection pool, logger, or configuration object, where multiple instances could lead to conflicts or inefficient resource usage.
