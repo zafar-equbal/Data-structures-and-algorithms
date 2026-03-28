@@ -1,0 +1,118 @@
+Counting Sort Time Complexity
+Counting Sort works by first counting the occurrence of different values, and then uses that to recreate the array in a sorted order.
+
+
+
+O
+p
+e
+r
+a
+t
+i
+o
+n
+s
+=
+n
++
+(
+k
++
+1
+)
++
+(
+2
+⋅
+n
+)
++
+n
+=
+4
+⋅
+n
++
+k
++
+1
+≈
+4
+⋅
+n
++
+k
+
+Based on what have seen about time complexity earlier, we can create a simplified expression using Big O notiation to represent time complexity:
+
+O
+(
+4
+⋅
+n
++
+k
+)
+=
+O
+(
+4
+⋅
+n
+)
++
+O
+(
+k
+)
+=
+O
+(
+n
+)
++
+O
+(
+k
+)
+=
+O
+(
+n
++
+k
+)
+––––––––––
+ 
+––––––––––
+ 
+
+It has already been mentioned that Counting Sort is effective when the range of different values 
+k
+ is relatively small compared to the total number of values to be sorted 
+n
+. We can now see this directly from the Big O expression 
+O
+(
+n
++
+k
+)
+.
+
+Just imagine for example that the range of different numbers 
+k
+ is 10 times as large as the number of the values to be sorted. In such a case we can see that the algorithm uses most of its time on handling the range of different numbers 
+k
+, although the actual number of values to be sorted 
+n
+ is small in comparison.
+
+It is not straight forward to show the time complexity for Counting Sort in a graph, or to have a simulation for the time complexity as we have had for the previous algorithms, because the time complexity is so greatly affected by the range of values 
+k
+.
+
+Below is a plot that shows how much the time complexity for Counting Sort can vary, followed by an explanation for the best and worst case scenarios.
+
+Time Complexity
