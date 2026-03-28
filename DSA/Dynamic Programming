@@ -1,3 +1,10 @@
 Dynamic Programming : Dynamic Programming is a method for designing algorithms.
 
 An algorithm designed with Dynamic Programming divides the problem into subproblems, finds solutions to the subproblems, and puts them together to form a complete solution to the problem we want to solve.
+
+To design an algorithm for a problem using Dynamic Programming, the problem we want to solve must have these two properties:
+
+<i>  Overlapping Subproblems: Means that the problem can be broken down into smaller subproblems, where the solutions to the subproblems are overlapping.
+     Having subproblems that are overlapping means that the solution to one subproblem is part of the solution to another subproblem.
+<ii> Optimal Substructure: Means that the complete solution to a problem can be constructed from the solutions of its smaller subproblems.
+     So not only must the problem have overlapping subproblems, the substructure must also be optimal so that there is a way to piece the solutions to the subproblems together to form the complete solution.
