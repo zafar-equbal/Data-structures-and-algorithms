@@ -3,3 +3,6 @@ Key Aspects of Linked Lists
 Structure: Consists of nodes containing data and a link (pointer) to the next node.
 Memory Management: Unlike arrays, nodes are not stored in contiguous memory locations, allowing for flexible memory allocation.
 Head/Tail: The first node is the 'head' (access point), and the last node is the 'tail' (points to NULL).
+
+In Java, a linked list is a linear data structure consisting of nodes where each node contains data and a reference to another node.
+There are four primary types of linked lists used in Java programming:
