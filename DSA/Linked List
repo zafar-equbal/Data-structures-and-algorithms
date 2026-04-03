@@ -6,3 +6,14 @@ Head/Tail: The first node is the 'head' (access point), and the last node is the
 
 In Java, a linked list is a linear data structure consisting of nodes where each node contains data and a reference to another node.
 There are four primary types of linked lists used in Java programming:
+
+Singly Linked List: The simplest type where each node contains data and a pointer only to the next node in the sequence. 
+Traversal is unidirectional, meaning you can only move forward from the head to the tail.
+
+Doubly Linked List: Each node contains three parts: data, a pointer to the next node, and a pointer to the previous node.
+This structure allows for bidirectional traversal, making operations like reverse iteration or deleting a node from its reference more efficient.
+
+Circular Linked List: A variation where the last node points back to the first node (head), forming a continuous loop instead of ending in a null reference.
+These can be further categorized as:Singly Circular Linked List: A singly linked list where the tail's "next" pointer points to the head.
+
+Doubly Circular Linked List: A doubly linked list where the tail's "next" points to the head and the head's "previous" points to the tail.
