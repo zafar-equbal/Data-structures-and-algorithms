@@ -1,5 +1,13 @@
 1. Welcome Message
 
+public class Main{
+ public static void main(String [] args){
+  System.out.println("Hello World :");
+  }
+}
+
+
+========================================================================================================================================================================
 2.Sum of two numbers
 
 3.Sum of two numbers user input ( using Scanner)
