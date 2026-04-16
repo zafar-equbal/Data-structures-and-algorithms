@@ -1,4 +1,4 @@
-1. Welcome Message
+1. Welcome Message :
 
 public class Main{
  public static void main(String [] args){
@@ -8,8 +8,20 @@ public class Main{
 
 
 ========================================================================================================================================================================
-2.Sum of two numbers
+2.Sum of two numbers :
 
+public class Sum{
+  public static void main (String [] args){
+  int a=10;
+  int b=20;
+  int result= a+b;
+  System.out.println("Sum is : " +result);
+   }
+}
+
+
+
+==========================================================================================================================================================
 3.Sum of two numbers user input ( using Scanner)
 
 4.Calculator using switch cases.
