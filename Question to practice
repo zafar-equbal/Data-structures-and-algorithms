@@ -42,7 +42,30 @@ public class Add{
 
 4.Calculator using switch cases.
 
-5.check the number is Even or Odd number.
+======================================================================================================================
+
+5.check the number is Even or Odd number :
+
+public class Main{
+  public static void main(String [] args){
+  evenOdd(5);
+
+  }
+
+  public static void evenOdd(int n){
+    if(n%2==0){
+      System.out.println(n+" is Even Number");
+    }else{
+      System.out.println(n+" is Odd Number ");
+    }
+  }
+}
+
+
+
+
+
+
 
 6.Check for prime number
 
