@@ -65,22 +65,20 @@ public class Main{
 
 6.Check for prime number :
 
-Public class Main {
+public class Main {
   public static void main (String [] args){
-
+   prime(5);
   }
 
   public static boolean prime(int n){
     if(n<=1) return false;
-
     for(int i=2;i*i<=n;i++){
       if(n%i==0){
-        return false 
+        return false ;
       }
-   
     }
     return true;
-      }
+    }
 }
 
 
