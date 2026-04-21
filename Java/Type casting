@@ -4,6 +4,7 @@ Syntax - Type variable1 =(type)_variable2;
 
 Example: int x=60;
          byte n=(byte) x;
+         double x=(int) y;
 
 Java Type Casting :  Type casting means converting one data type into another. For example, turning an int into a double.
 
