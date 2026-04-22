@@ -95,6 +95,21 @@ public class Main {
 
 11.Printing Number From 1 to N using Recursion;
 
+public class Main{
+  
+  static int print(int n){
+    if(n==0) {
+      return;
+    }
+    return print(n-1);
+    System.out.println(n);
+  }
+
+  public static void main(String [] args){
+   print(10); 
+  }
+}
+
 ===============================================================================================================================================================================
 12. Factorial of a number;
 
