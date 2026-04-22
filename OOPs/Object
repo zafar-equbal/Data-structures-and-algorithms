@@ -20,3 +20,23 @@ Every object has three primary characteristics:
 
 Creating an Object in Java :
 Objects are typically created using the ( new ) keyword, which allocates memory and calls a constructor to initialize the object's state. 
+
+
+public class Main{
+
+      class Car{
+            static void start(){
+                  System.out.println("Engine Start");
+            }
+
+            static void run(){
+                  System.out .println("Running...")
+            }
+      }
+      public static void main (String [] args){
+         Car obj=new Car();
+         obj.start();
+         obj.run();
+      }
+
+}
