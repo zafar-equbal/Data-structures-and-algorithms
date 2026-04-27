@@ -191,25 +191,18 @@ public class Main{
 17. string is pallindrome or not.
 
 ================================================================================================================================================================================
-18. Class and Object example.
+18. Class and Object example:
 
 public class ExClassAndObject{
 
-<<<<<<< HEAD
 //   static void greeting(){
-//     System.out.println("Hello Hero");
+//   System.out.println("Hello Hero");
 //   }
 //   public static void main (String [] args){
 //   Greeting obj=new Greeting();
 //   obj.greeting();
 //   }
 // }
-=======
+
 ===============================================================================================================================================================================
->>>>>>> 2fbfe3e7f5e081a16ef1bc821fc21d03bb0a400d
-
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 2fbfe3e7f5e081a16ef1bc821fc21d03bb0a400d
+19. Two Pointer :
