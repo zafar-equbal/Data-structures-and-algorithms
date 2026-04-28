@@ -147,7 +147,22 @@ public class Star{
 }
 
 =================================================================================================================================================================================
-14. Find Min and Max.
+14. Find Min and Max of two number:
+ 
+ public class MinMax{
+  public static void minMax(int a , int b){
+    if(a>b){
+      System.out.println(a+" is Maximum");
+      System.out.println(b+" is Minimum");
+    }else{
+      System.out.println(b+" is Maximum")
+      System.out.println(a+" is Minimum");
+    }
+  }
+  public static void main(String[] args){
+    minMax(10,20);
+  }
+ }
 
 =================================================================================================================================================================================================
 
