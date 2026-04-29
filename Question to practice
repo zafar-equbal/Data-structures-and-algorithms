@@ -242,11 +242,11 @@ public class Main{
 
 public class ExClassAndObject{
 
-//   static void greeting(){
-//   System.out.println("Hello Hero");
-//   }
-//   public static void main (String [] args){
-//   Greeting obj=new Greeting();
+   static void greeting(){
+   System.out.println("Hello Hero");
+   }
+   public static void main (String [] args){
+   Greeting obj=new Greeting();
 //   obj.greeting();
 //   }
 // }
