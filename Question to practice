@@ -247,9 +247,9 @@ public class ExClassAndObject{
    }
    public static void main (String [] args){
    Greeting obj=new Greeting();
-//   obj.greeting();
-//   }
-// }
+   obj.greeting();
+   }
+ }
 
 ===============================================================================================================================================================================
 19. Two Pointer :
