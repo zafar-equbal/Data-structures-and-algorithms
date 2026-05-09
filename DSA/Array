@@ -4,7 +4,7 @@ To declare an array, define the variable type with square brackets [ ] :
 
 String[] cars; // datatype [] array_name
 
-example: To create an array of integers, you could write::
+example: To create an array of integers, you could write:
          int[] myNum = {10, 20, 30, 40};
 
 Access the Elements of an Array : 
