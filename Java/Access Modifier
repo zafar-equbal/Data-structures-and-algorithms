@@ -3,6 +3,13 @@ They are fundamental to encapsulation, allowing you to protect internal data and
 
 The Four Types of Access Modifiers :
 Java provides four levels of access:
-private: The most restrictive level. Members are accessible only within the same class.Default (No keyword): Also known as package-private.
-Members are accessible only within the same package.protected: Members are accessible within the same package and by subclasses in other packages.public: The least restrictive level.
-Members are accessible from anywhere in the program.
+
+1. private: The most restrictive level. Members are accessible only within the same class.
+
+2. Default (No keyword): Also known as package-private.
+   Members are accessible only within the same package.
+
+3. protected: Members are accessible within the same package and by subclasses in other packages.
+
+4. public: The least restrictive level.
+   Members are accessible from anywhere in the program.
