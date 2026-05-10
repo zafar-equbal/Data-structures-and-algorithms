@@ -1,6 +1,8 @@
 Access modifiers in Java are keywords that control the visibility and accessibility of classes, methods, variables, and constructors.
 They are fundamental to encapsulation, allowing you to protect internal data and expose only what is necessary.
 
-The Four Types of Access ModifiersJava provides four levels of access:private: The most restrictive level. Members are accessible only within the same class.Default (No keyword): Also known as package-private.
+The Four Types of Access Modifiers :
+Java provides four levels of access:
+private: The most restrictive level. Members are accessible only within the same class.Default (No keyword): Also known as package-private.
 Members are accessible only within the same package.protected: Members are accessible within the same package and by subclasses in other packages.public: The least restrictive level.
 Members are accessible from anywhere in the program.
