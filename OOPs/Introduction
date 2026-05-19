@@ -25,6 +25,7 @@ Abstraction: Hiding complex implementation details and showing only the necessar
 Advantages of OOP:
 
 Reusability: Code can be reused through inheritance.
+Efficient
 
 Maintainability: Easier to maintain, modify, and debug code.
 
