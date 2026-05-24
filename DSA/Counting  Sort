@@ -1,5 +1,7 @@
 Counting Sort Time Complexity  : The time complexity of counting sort is \(O(n + k)\) for all cases (best, average, and worst).
 Counting Sort works by first counting the occurrence of different values, and then uses that to recreate the array in a sorted order.
 
+Counting sort is an efficient, non-comparison-based sorting algorithm that works by counting the occurrences of each unique element in an input array. Unlike standard algorithms like Quick Sort or Merge Sort, it determines an element's position based on its value rather than comparing it to other elements.
+
 
 
