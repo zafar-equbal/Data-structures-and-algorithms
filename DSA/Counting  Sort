@@ -1,4 +1,4 @@
-Counting Sort Time Complexity
+Counting Sort Time Complexity  : The time complexity of counting sort is \(O(n + k)\) for all cases (best, average, and worst).
 Counting Sort works by first counting the occurrence of different values, and then uses that to recreate the array in a sorted order.
 
 
