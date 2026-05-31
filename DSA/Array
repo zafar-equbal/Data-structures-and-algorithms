@@ -2,7 +2,7 @@ Arrays : Arrays are used to store multiple values in a single variable, instead 
 
 To declare an array, define the variable type with square brackets [ ]  :
 
-String[] cars; // datatype [] array_name
+String[] cars ; // datatype [] array_name
 
 example: To create an array of integers, you could write:
          int [] myNum = {10, 20, 30, 40};
