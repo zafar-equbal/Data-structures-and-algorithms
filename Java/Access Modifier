@@ -9,7 +9,7 @@ Java provides four levels of access:
 2. Default (No keyword): Also known as package-private.
    Members are accessible only within the same package.
 
-3. protected: Members are accessible within the same package and by subclasses in other packages.
+3. protected: Members are accessible within the same package and by subclasses in other  packages.
 
 4. public: The  least restrictive level.
    Members are accessible from anywhere in the program.
