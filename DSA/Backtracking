@@ -9,3 +9,4 @@ Explore: Recursively move forward with this choice.
 Unchoose (Backtrack): If the recursive call returns and doesn't find a solution, undo the most recent decision to restore the state and try a different option. 
 A base case is defined to check if a complete and valid solution has been reached. 
 
+Recursion with all possible outcomes
