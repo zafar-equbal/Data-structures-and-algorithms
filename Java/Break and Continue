@@ -5,6 +5,7 @@ Usage: Can be used with for, while, do-while, and switch statements.
 
 Behavior in Nested Loops: When used within nested loops, break terminates only the innermost loop in which it is located.
 
+
 Syntax: break; 
 
 Example :
