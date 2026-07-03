@@ -4,7 +4,7 @@ This mechanism promotes code reusability and establishes an "is-a" relationship 
 Key Terminology and Types :
 Superclass & Subclass: The parent class provides features, while the child class inherits them.
 
-Keywords: extends creates the relationship, while super accesses parent members.
+Keywords: extends creates the relationship, while super  accesses parent members.
 
 Types: Java supports Single, Multilevel, and Hierarchical inheritance. Multiple and Hybrid inheritance are achieved through interfaces to avoid complexity.
 
