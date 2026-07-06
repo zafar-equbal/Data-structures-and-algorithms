@@ -15,4 +15,4 @@ There are three primary types of constructors in Java:
 
 1. Default Constructor: If you do not define any constructor in your class, the Java compiler automatically provides a no-argument default constructor. This constructor initializes all instance variables to their default values (e.g., 0 for int, false for boolean, null for objects).
 2. No-Arg Constructor (User-Defined): This is a constructor explicitly written by the programmer that takes no arguments. Unlike the implicit default constructor, you can include custom logic inside a user-defined no-arg constructor to perform specific setup tasks.
-Parameterized Constructor: This constructor takes one or more parameters. It is used to initialize the object's fields with specific, user-provided values at the time of object creation, allowing for objects with different initial states.
+3. Parameterized Constructor: This constructor takes one or more parameters. It is used to initialize the object's fields with specific, user-provided values at the time of object creation, allowing for objects with different initial states.
