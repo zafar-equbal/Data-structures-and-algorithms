@@ -1,6 +1,7 @@
 Bit manipulation in Java involves using bitwise and bit shift operators to directly manipulate individual bits within integral data types (like int, long, short, byte, and char). 
 This technique is used for optimization, low-level programming, and solving certain algorithmic problems efficiently. 
 
+
 Bitwise Operators in Java :
 
 Java provides a set of operators for bit-level operations: 
