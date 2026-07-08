@@ -10,3 +10,6 @@ Real-time Example: A Bank Account System
 A Bank Account class demonstrates encapsulation by protecting the balance data.
 It uses a private field for the balance and public methods for controlled, validated interaction. 
 
+
+
+
