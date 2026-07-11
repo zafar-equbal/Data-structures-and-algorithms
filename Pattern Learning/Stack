@@ -1,1 +1,2 @@
-
+Stack : A stack is a linear data structure that follows the Last In, First Out (LIFO) principle, meaning the last element added to the stack is the first one to be removed. 
+It behaves exactly like a real-world pile of dinner plates or a deck of cards where you can only add or remove items from the very top.
