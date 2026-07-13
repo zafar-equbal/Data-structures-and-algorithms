@@ -5,7 +5,7 @@ To achieve this, you must:
 
 - declare class variables/attributes as private
 - provide public get and set methods to access and update the value of a private variable
-
+\\
 
 Real-time Example: A Bank Account System
 A Bank Account class demonstrates encapsulation by protecting the balance data.
