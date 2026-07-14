@@ -1,4 +1,3 @@
-
 In Java, abstraction focuses on hiding implementation complexities to show only essential features (the "what"), 
 while encapsulation focuses on binding data and methods into a single unit and controlling access to that data (the "how it's protected"). 
 
