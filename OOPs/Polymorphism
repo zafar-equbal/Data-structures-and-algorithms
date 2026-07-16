@@ -4,6 +4,6 @@ Each type can provide its own independent implementation of this interface.
 
 In programming language theory and type theory, polymorphism allows a value or variable to have more than one type and allows a given operation to be performed on  values of more than one type.
 
-Java divides polymorphism into two main categories: 
+## Java divides polymorphism into two main categories: 
 Compile-Time (Static) Polymorphism and 
 Runtime (Dynamic) Polymorphism.
