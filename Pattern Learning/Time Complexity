@@ -1,1 +1,4 @@
-Time complexity is a theoretical measure that describes the amount of computer time it takes to run an algorithm as a function of the size of its input. It does not measure the actual execution time in seconds. Instead, it counts the number of elementary operations performed by the code, allowing developers to evaluate how an algorithm scales independently of hardware or programming languages.The Big O NotationComputer scientists express time complexity using Big O notation, which provides the mathematical upper bound (worst-case scenario) of an algorithm's growth rate.
+Time complexity is a theoretical measure that describes the amount of computer time it takes to run an algorithm as a function of the size of its input. 
+It does not measure the actual execution time in seconds. 
+Instead, it counts the number of elementary operations performed by the code, allowing developers to evaluate how an algorithm scales independently of hardware or programming languages.
+The Big O NotationComputer scientists express time complexity using Big O notation, which provides the mathematical upper bound (worst-case scenario) of an algorithm's growth rate.
