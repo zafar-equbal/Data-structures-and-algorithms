@@ -12,5 +12,12 @@ A Bank Account class demonstrates encapsulation by protecting the balance data.
 It uses a private field for the balance and public methods for controlled, validated interaction. 
 
 
+# How Encapsulation WorksTo fully implement encapsulation,
+Developers use a combination of private variables and public accessor methods:
 
+Private Fields: Declaring class variables as private makes them completely inaccessible from outside classes.
+
+Public Methods: Providing public getter and setter methods exposes controlled read and write functionality.
+
+Data Validation: Placing checks or operational constraints inside setters blocks corrupt or unwanted data from entering the system.
 
