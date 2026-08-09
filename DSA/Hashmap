@@ -5,7 +5,8 @@ HashMap is not thread-safe, to make it synchronized, use Collections.synchronize
 Insertion order is not preserved in HashMap. To preserve the insertion order, LinkedHashMap is used and to maintain sorted order, TreeMap is used.
 
 
-HashMap Declaration;
+# HashMap Declaration;
+
 public class HashMap<K,V> extends AbstractMap<K,V> implements Map<K,V>, Cloneable, Serializable
 
 It takes two parameters, namely as follows:
