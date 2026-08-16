@@ -2,6 +2,7 @@ Method Overriding - Method overriding in Java occurs when a subclass provides it
 The method in the subclass must have the same name, return type (or a covariant return type), and parameters as the one in the parent class. 
 
 Key Rules for Method Overriding :
+
 Inheritance is required: Overriding can only happen in a subclass that extends a superclass.
 Same signature: The overriding method must have the exact same name, return type (or a covariant return type), and parameter list as the method in the superclass.
 Access modifier: The access modifier of the overriding method cannot be more restrictive than the overridden method's modifier. For example, a protected method in the superclass can be made public in the subclass, but not private.
