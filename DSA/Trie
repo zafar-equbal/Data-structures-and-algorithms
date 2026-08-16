@@ -2,8 +2,18 @@ A trie (pronounced "try"), or prefix tree, is a tree-like data structure used to
 Each node holds a single character, and paths spell out words.
 It makes operations like autocomplete and spell-checking fast, taking time proportional to the key length.
 
-How a Trie WorksRoot node: 
+How a Trie WorksRoot node:
+
 Starts empty with no character value.Child nodes: 
 Each branch represents the next letter in a word.End marker:
 A flag on a node shows it finishes a valid word.Shared paths:
 Words with the same start use the same nodes.
+
+Main Operations and SpeedInsert:
+
+Add a word letter by letter. 
+Time is O(L) where L is word length.Search: 
+Walk down the tree to see if a full word exists.
+Time is O(L).Prefix search:
+Check if any word starts with a given string. 
+Great for search box suggestions.
