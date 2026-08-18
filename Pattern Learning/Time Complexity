@@ -3,4 +3,4 @@ It does not measure the actual execution time in seconds.
 Instead, it counts the number of elementary operations performed by the code, allowing developers to evaluate how an algorithm scales independently of hardware or programming languages.
 The Big O Notation Computer scientists express time complexity using Big O notation, which provides the mathematical upper bound (worst-case scenario) of an algorithm's growth rate.
 
-Time complexity is very useful
+Time complexity is very useful.
